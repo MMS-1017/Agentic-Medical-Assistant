@@ -78,7 +78,196 @@ the Python project conventions and include tests for new features.
 ## License
 
 This project is provided under the MIT License. See LICENSE for details.
+ 
+## Agents Architecture
 
+```text
+                           ┌──────────────────────┐
+                           │      Patient         │
+                           └──────────┬───────────┘
+                                      │
+             ┌────────────────────────┼────────────────────────┐
+             │                        │                        │
+             ▼                        ▼                        ▼
+      Text Chat                Voice Input              Phone Call
+                                                     (Call Agent)
+
+                                      │
+                                      ▼
+                    ┌─────────────────────────────────┐
+                    │        Orchestrator Agent       │
+                    │                                 │
+                    │ - Authentication                │
+                    │ - Session Management            │
+                    │ - Routing Decisions             │
+                    └──────────────┬──────────────────┘
+                                   │
+                    ┌──────────────┴──────────────┐
+                    │                             │
+                    ▼                             ▼
+         Scheduling Request             Medical Complaint
+                    │                             │
+                    ▼                             ▼
+         ┌──────────────────┐       ┌────────────────────────┐
+         │ Scheduling Agent │       │    Diagnosis Agent     │
+         └────────┬─────────┘       └───────────┬────────────┘
+                  │                             │
+                  ▼                             ▼
+        Appointment Database          Medical Knowledge Base
+                                     (Vector Database + RAG)
+
+                  │                             │
+                  ▼                             ▼
+      Available? Yes / No            Diagnosis Success?
+                  │                             │
+          ┌───────┴────────┐          ┌─────────┴─────────┐
+          │                │          │                   │
+          ▼                ▼          ▼                   ▼
+     Available         Not Available Success          Failed
+          │                │          │                   │
+          ▼                ▼          ▼                   ▼
+  Booking Confirmation  Suggest  Classify Case      Human Doctor
+                         Another      │             (HITL)
+                        Hospital       │
+                                      ▼
+                           ┌──────────────────┐
+                           │ Urgent ?         │
+                           └──────┬───────────┘
+                                  │
+                      ┌───────────┴───────────┐
+                      │                       │
+                      ▼                       ▼
+               Non-Urgent                 Urgent
+                      │                       │
+                      ▼                       ▼
+              Scheduling Agent      Emergency Agent
+                                              │
+                         ┌────────────────────┴──────────────────┐
+                         │                                       │
+                         ▼                                       ▼
+            Frequent Ambulance User?                    First-Time User
+                         │                                       │
+                  ┌──────┴──────┐                         Set Timer
+                  │             │                         Based On
+                  ▼             ▼                         Diagnosis
+            Yes (Direct)       No                              │
+                  │             │                              ▼
+                  ▼             └────────────────────► Ambulance Dispatch
+          Ambulance Dispatch
+```
+---
+
+### Overview
+
+CarePulse uses a lightweight orchestrator that receives a patient request and
+routes it to purpose-built agent nodes. Each agent is an independently
+deployable node with a well-defined interface and responsibility (diagnosis,
+emergency, scheduling, feedback, HITL, etc.). Agents may call LLM providers
+and the RAG retriever and report telemetry to Langfuse.
+
+### Components
+
+- Orchestrator: intent classification, authentication, session lookup,
+  routing, and aggregation of agent responses.
+- Diagnosis Agent: multimodal clinical reasoning with RAG support; outputs
+  department, confidence and urgency scores.
+- Emergency Agent: evaluates urgency thresholds, triggers dispatcher and
+  notifications when required.
+- Scheduling Agent: finds and books slots, applies loyalty rules, and
+  schedules follow-up jobs (feedback / reminders).
+- Feedback Agent: collects post-appointment feedback and writes analytics.
+- HITL Agent: queues low-confidence cases for clinician review and supports
+  doctor resolution APIs.
+- Background Workers: APScheduler / task queue for reminders and delayed jobs.
+
+### Agent Interface (JSON contract)
+
+Request (from Orchestrator):
+
+```json
+{
+  "request_id": "uuid",
+  "patient_id": "uuid",
+  "context": {"history": [], "last_message": "..."},
+  "input": {"text": "...", "image_url": null, "audio_url": null}
+}
+```
+
+Response (from Agent):
+
+```json
+{
+  "request_id": "uuid",
+  "agent": "diagnosis",
+  "intent": "diagnosis",
+  "department": "Cardiology",
+  "confidence": 0.91,
+  "urgency": 0.87,
+  "hitl": false,
+  "actions": [
+    {"type": "schedule", "payload": {"department": "Cardiology"}}
+  ],
+  "explainability": "structured findings and supporting docs"
+}
+```
+
+Agents MUST include `request_id` and `patient_id` and return numeric
+confidence/urgency scores in [0,1]. The `actions` array lets the orchestrator
+execute follow-up steps (e.g., booking, dispatching).
+
+### State & Persistence
+
+- Agents are stateless by design; all persistent data lives in the
+  appropriate PostgreSQL logical database or Qdrant for vector data.
+- Conversation session state is stored in `patient_db.sessions` and is
+  referenced by `session_id` in agent requests when needed.
+- HITL cases write structured payloads to `patient_db.hitl_cases` for review.
+
+### Async Flows & Tasking
+
+- Emergency dispatch is synchronous: the Emergency Agent returns a `dispatch`
+  action which the orchestrator converts into an immediate notification and
+  an analytics log entry.
+- Scheduling and reminders use APScheduler jobs that call the Scheduling
+  Agent or Notification service at scheduled times.
+
+### Observability & Monitoring
+
+- Langfuse traces every agent call with inputs, outputs, latency and model
+  choices. Store try/response metadata in `analytics_db.agent_logs` for
+  auditing and replay.
+- Export Prometheus metrics (latency, error rate, queue depth) from each
+  agent container for dashboarding.
+
+
+### Scaling & Reliability
+
+- Run each agent as a small containerized service with horizontal scaling
+  behind a Kubernetes Deployment or Docker Compose replicas for local dev.
+- Use retries + exponential backoff for transient LLM or Qdrant failures.
+- Circuit-breaker patterns protect the orchestrator from slow downstream
+  agents; fail closed with a helpful user-facing message.
+
+### Deployment Notes
+
+- Agents are packaged under `backend/agents/*` and expose an internal Python
+  API invoked by the orchestrator; treat them as modules when running a single
+  process for dev, or as separate services in production.
+- Keep secrets per-service (LLM keys, DB URLs) scoped via environment
+  variables and use a secrets manager in production.
+
+If you'd like, I can also:
+
+- generate OpenAPI schemas for each agent's input/output,
+- add a small diagram file under `docs/` or convert this section to a
+  separate `docs/agents.md` file.
+
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+
+# Optional (enables Langfuse monitoring)
+LANGFUSE_PUBLIC_KEY=your_langfuse_public_key
+LANGFUSE_SECRET_KEY=your_langfuse_secret_key
+```
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
 
 # Optional (enables Langfuse monitoring)
