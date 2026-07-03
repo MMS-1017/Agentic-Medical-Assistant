@@ -1,0 +1,118 @@
+GENERAL MEDICINE (INTERNAL MEDICINE) — Department Reference Guide
+
+OVERVIEW
+General Medicine (Internal Medicine) covers a broad range of medical conditions affecting adult patients. It serves as a gateway specialty, managing complex systemic illnesses and coordinating care across multiple specialties.
+
+COMMON CONDITIONS
+
+1. DIABETES MELLITUS
+Type 1: Autoimmune destruction of beta cells. Absolute insulin deficiency. Onset often in youth.
+Type 2: Insulin resistance + relative deficiency. Most common. Associated with obesity and lifestyle.
+Symptoms: Polyuria (excessive urination), polydipsia (excessive thirst), polyphagia (excessive hunger), weight loss (T1DM), fatigue, blurred vision, recurrent infections.
+Complications: Diabetic ketoacidosis (T1DM), hyperosmolar hyperglycemic state (T2DM), neuropathy, nephropathy, retinopathy, cardiovascular disease.
+Diabetic Ketoacidosis (DKA): Nausea, vomiting, abdominal pain, fruity breath, rapid breathing (Kussmaul), altered consciousness. Blood glucose > 14 mmol/L, ketonemia, acidosis. EMERGENCY.
+Investigations: HbA1c (target < 7%/53 mmol/mol), fasting glucose, post-prandial glucose, urine microalbumin, lipid panel, kidney function.
+Treatment T2DM: Metformin (first-line), SGLT2 inhibitors (empagliflozin), GLP-1 agonists (semaglutide), DPP-4 inhibitors, sulfonylureas, insulin.
+Triage: DKA/HHS → Emergency. Uncontrolled diabetes → General Medicine. Stable T2DM → GP/General Medicine outpatient.
+
+2. HYPERTENSION
+Definition: Persistent BP ≥ 140/90 mmHg (or ≥ 130/80 in high-risk patients).
+Symptoms: Usually asymptomatic ("silent killer"). Severe: headache, visual disturbance, nosebleed.
+Target organ damage: Heart (LVH, MI), brain (stroke), kidneys (nephropathy), eyes (retinopathy).
+Treatment: Lifestyle (low sodium diet, exercise, weight loss, quit smoking). Medications: ACE inhibitors (ramipril), ARBs (losartan), amlodipine, thiazide diuretics (hydrochlorothiazide).
+Hypertensive crisis (BP > 180/120): Without end-organ damage → Hypertensive urgency (oral meds). With end-organ damage → Hypertensive emergency (IV meds, ICU).
+Triage: Hypertensive urgency → Same-day General Medicine. Hypertensive emergency → ICU.
+
+3. UPPER RESPIRATORY TRACT INFECTION (URTI)
+Symptoms: Sore throat, nasal congestion, rhinorrhea, sneezing, mild fever, cough, malaise.
+Cause: Primarily viral (rhinovirus, influenza, coronavirus).
+Urgency: Non-urgent. Self-limiting.
+Treatment: Symptomatic relief — paracetamol/NSAIDs, decongestants, increased fluid intake. Antibiotics NOT indicated for viral URTI.
+Bacterial pharyngitis (Group A Strep): Exudative tonsils, cervical lymphadenopathy, fever without cough → Antibiotics (amoxicillin or azithromycin if allergic).
+Complications: Pneumonia, sinusitis, otitis media.
+Triage: GP or General Medicine outpatient. Emergency if dyspnea, stridor, or cyanosis.
+
+4. COMMUNITY-ACQUIRED PNEUMONIA (CAP)
+Symptoms: Fever, productive cough (purulent/rusty sputum), pleuritic chest pain, dyspnea, decreased breath sounds, dullness to percussion.
+Urgency: Depends on severity (CURB-65 score). Score ≥ 3 → Hospital admission.
+CURB-65: Confusion, Urea > 7mmol/L, Respiratory rate ≥ 30, BP < 90/60, Age ≥ 65. Each = 1 point.
+Investigations: Chest X-ray (lobar consolidation), sputum culture, blood cultures, ABG in severe cases.
+Treatment: Mild (CURB-65 0-1): Amoxicillin oral outpatient. Moderate (2): Amoxicillin + clarithromycin, hospital. Severe (≥3): IV co-amoxiclav + clarithromycin, ICU if needed.
+Triage: Mild → General Medicine outpatient. Moderate-Severe → Hospital admission (Emergency/General Medicine).
+
+5. URINARY TRACT INFECTION (UTI)
+Lower UTI (cystitis): Dysuria (painful urination), urinary frequency, urgency, suprapubic discomfort, cloudy/smelly urine.
+Upper UTI (pyelonephritis): Loin/flank pain, fever, rigors, nausea, positive CVAT (costo-vertebral angle tenderness).
+Urgency: Uncomplicated lower UTI — non-urgent. Pyelonephritis — urgent. Urosepsis — Emergency.
+Treatment: Lower UTI: Trimethoprim, nitrofurantoin, or fosfomycin. Pyelonephritis: Ciprofloxacin or co-amoxiclav. Urosepsis: IV antibiotics.
+Triage: Lower UTI → GP. Pyelonephritis → Urgent General Medicine. Urosepsis → Emergency.
+
+6. ANEMIA
+Types: Iron-deficiency (microcytic), B12/folate deficiency (macrocytic), hemolytic, aplastic, anemia of chronic disease.
+Symptoms: Fatigue, pallor, shortness of breath on exertion, palpitations, dizziness, headache.
+Severe anemia (Hb < 7 g/dL with symptoms) → Requires urgent blood transfusion.
+Investigations: CBC with differential, reticulocyte count, iron studies, B12/folate, peripheral smear.
+Treatment: Treat underlying cause. Iron supplements (ferrous sulfate), B12 injections, folate, erythropoietin, blood transfusion for severe cases.
+Triage: Severe symptomatic anemia → Emergency. Mild-moderate chronic → General Medicine outpatient.
+
+7. THYROID DISORDERS
+Hypothyroidism: Fatigue, weight gain, cold intolerance, constipation, dry skin, hair loss, bradycardia, myxedema.
+Hyperthyroidism: Weight loss, heat intolerance, palpitations, tremor, diarrhea, anxiety, exophthalmos (Graves').
+Thyroid storm (thyrotoxic crisis): Fever, tachycardia, confusion, cardiac failure — EMERGENCY.
+Myxedema coma: Hypothermia, decreased consciousness — EMERGENCY.
+Treatment: Hypothyroidism: Levothyroxine. Hyperthyroidism: Carbimazole/propylthiouracil, beta-blockers, radioiodine, thyroidectomy.
+Triage: Stable thyroid disease → General Medicine/Endocrinology outpatient. Thyroid storm/myxedema coma → Emergency.
+
+8. FEVER OF UNKNOWN ORIGIN (FUO)
+Definition: Fever > 38.3°C on multiple occasions for > 3 weeks with no diagnosis after initial workup.
+Causes: Infections (TB, endocarditis, abscesses), malignancy (lymphoma), autoimmune disease.
+Investigations: Blood cultures (×3), CBC, ESR/CRP, LFTs, urinalysis, chest X-ray, echocardiogram, CT chest/abdomen/pelvis, HIV test, autoimmune markers.
+Triage: General Medicine inpatient if unable to work up outpatient.
+
+9. DEHYDRATION AND FLUID/ELECTROLYTE DISORDERS
+Dehydration: Decreased skin turgor, dry mucous membranes, tachycardia, decreased urine output, hypotension (severe).
+Causes: Vomiting, diarrhea, poor intake, polyuria.
+Hypernatremia, hyponatremia, hypokalemia, hyperkalemia: Each has specific clinical manifestations and requires targeted management.
+Severe hyponatremia (Na < 120): Confusion, seizures → Emergency.
+Severe hyperkalemia (K > 6.5 or ECG changes): Cardiac arrhythmia risk → Emergency.
+Triage: Severe electrolyte disturbances → Emergency. Mild-moderate → General Medicine.
+
+GENERAL MEDICINE EMERGENCY INDICATORS
+- Diabetic ketoacidosis: fruity breath, Kussmaul breathing, glucose > 14, ketonemia
+- Sepsis: fever/hypothermia + tachycardia + tachypnea + altered mental status + suspected infection source
+- Pulmonary embolism: sudden dyspnea, pleuritic chest pain, tachycardia, hypoxia after immobilization
+- Anaphylaxis: urticaria, angioedema, bronchospasm, hypotension after allergen exposure
+
+COMMON GENERAL MEDICINE MEDICATIONS
+- Metformin: T2DM first-line
+- Insulin (glargine, aspart, regular): diabetes
+- Ramipril, lisinopril: ACE inhibitors (hypertension, heart failure, diabetic nephropathy)
+- Amlodipine: calcium channel blocker (hypertension)
+- Levothyroxine: hypothyroidism
+- Carbimazole: hyperthyroidism
+- Amoxicillin, azithromycin: respiratory infections
+- Ciprofloxacin, trimethoprim: UTI
+- Ferrous sulfate: iron deficiency anemia
+- Paracetamol, NSAIDs: analgesia/antipyretics
+- Furosemide: fluid overload
+
+DIAGNOSTIC TOOLS
+- CBC (complete blood count): anemia, infection, clotting
+- Metabolic panel: electrolytes, glucose, kidney function, liver function
+- HbA1c: diabetes monitoring
+- Thyroid function tests: TSH, free T3/T4
+- CRP/ESR: inflammation markers
+- Blood cultures: suspected bacteremia
+- Urinalysis: UTI, kidney disease
+- Chest X-ray: pneumonia, heart failure, malignancy
+- ECG: cardiac conditions
+- Pulmonary function tests: asthma, COPD
+
+TRIAGE SUMMARY
+- High fever + tachycardia + confusion → Emergency (sepsis)
+- Fruity breath + hyperglycemia + vomiting → Emergency (DKA)
+- Shortness of breath + chest pain + recent immobilization → Emergency (PE)
+- Moderate fever + cough + sputum → General Medicine (pneumonia workup)
+- Fatigue + weight gain + cold intolerance → General Medicine outpatient (hypothyroidism)
+- Polyuria + polydipsia → General Medicine (diabetes workup)
+- Controlled hypertension → GP / General Medicine outpatient

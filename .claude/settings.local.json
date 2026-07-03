@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType File -Force -Path \"backend\\\\llm\\\\__init__.py\")",
+      "PowerShell(New-Item -ItemType File -Force -Path \"backend\\\\tools\\\\__init__.py\")",
+      "PowerShell(New-Item -ItemType File -Force -Path \"backend\\\\services\\\\__init__.py\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"docs\\\\medical\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"scripts\")",
+      "PowerShell(New-Item -ItemType File -Force -Path \"scripts\\\\__init__.py\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"nginx\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \".github\\\\workflows\")"
+    ]
+  }
+}

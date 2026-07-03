@@ -1,0 +1,127 @@
+NEUROLOGY — Department Reference Guide
+
+OVERVIEW
+Neurology deals with disorders of the nervous system, including the brain, spinal cord, peripheral nerves, and neuromuscular junction. Headaches, seizures, stroke, and movement disorders are among the most common neurological presentations.
+
+COMMON CONDITIONS
+
+1. ISCHEMIC STROKE
+Symptoms: Sudden onset facial drooping (one side), arm weakness (one side), speech difficulty/slurring (FAST criteria), sudden severe headache, vision changes, dizziness/balance problems.
+Urgency: EXTREME EMERGENCY — "Time is Brain." Every minute without treatment, 1.9 million neurons die.
+Time window: IV thrombolysis (tPA) within 4.5 hours; endovascular thrombectomy within 24 hours.
+Investigations: Urgent CT head (exclude hemorrhage), CT/MR angiography, ECG, bloods.
+Treatment: Aspirin 300mg (if no hemorrhage), IV alteplase, mechanical thrombectomy.
+Triage: Emergency. Call stroke team immediately. Target CT within 25 minutes of arrival.
+FAST test: Face drooping, Arm weakness, Speech difficulty, Time to call emergency.
+
+2. HEMORRHAGIC STROKE / INTRACEREBRAL HEMORRHAGE
+Symptoms: Sudden severe headache ("worst headache of my life"), vomiting, rapidly progressive weakness/numbness, decreased consciousness.
+Urgency: EXTREME EMERGENCY. Risk of rapid deterioration and death.
+Investigations: CT head (hemorrhage appears hyperdense/white).
+Treatment: Blood pressure control, reverse anticoagulation if applicable, neurosurgical intervention in some cases.
+Triage: Emergency. Neurosurgery consult.
+
+3. SUBARACHNOID HEMORRHAGE (SAH)
+Symptoms: "Thunderclap headache" — worst headache of life, sudden onset, may be associated with brief loss of consciousness, neck stiffness, photophobia.
+Urgency: EMERGENCY. 30% mortality before hospital. Re-bleeding is the main early risk.
+Investigations: CT head (shows blood in subarachnoid space), lumbar puncture if CT negative (xanthochromia).
+Treatment: Urgent neurosurgical assessment, nimodipine (prevents vasospasm), aneurysm coiling/clipping.
+Triage: Emergency.
+
+4. TRANSIENT ISCHEMIC ATTACK (TIA)
+Symptoms: Same as stroke but symptoms fully resolve within 24 hours (usually < 1 hour). High risk of subsequent stroke (10% within 48 hours).
+Urgency: HIGH — same-day TIA clinic or emergency assessment.
+Investigations: Brain imaging (DWI MRI preferred), carotid Doppler, ECG, echocardiogram.
+Treatment: Aspirin + clopidogrel, statin, BP control, anticoagulation if AF, carotid endarterectomy if >70% stenosis.
+Triage: Emergency or same-day neurology/TIA clinic.
+
+5. SEIZURES AND EPILEPSY
+Seizure: Uncontrolled electrical discharge in brain. May be generalized (tonic-clonic, absence) or focal.
+Status Epilepticus: Seizure lasting > 5 minutes or recurrent seizures without recovery — EMERGENCY.
+First seizure: Urgent neurology assessment to determine cause and whether to start antiepileptics.
+Treatment: Benzodiazepines (lorazepam/diazepam) acutely. Maintenance: levetiracetam, valproate, lamotrigine, carbamazepine.
+Investigations: EEG, brain MRI, metabolic panel, toxicology screen.
+Triage: Active seizure → Emergency. First seizure, now resolved → Urgent neurology. Established epilepsy, no change → Neurology outpatient.
+
+6. MIGRAINE
+Symptoms: Unilateral throbbing headache, moderate to severe intensity, nausea/vomiting, photophobia, phonophobia. Lasts 4-72 hours. May have aura (visual, sensory, speech disturbance).
+Urgency: Non-urgent for established migraine. Rule out secondary headache causes.
+Red flags (meningism, thunderclap onset, papilledema) → Emergency.
+Treatment: Acute: triptans (sumatriptan), NSAIDs, antiemetics. Preventive: topiramate, amitriptyline, propranolol, CGRP antagonists.
+Triage: Neurology outpatient for recurrent migraines. Emergency if red flags present.
+
+7. MULTIPLE SCLEROSIS (MS)
+Symptoms: Episodes of neurological dysfunction — optic neuritis (painful vision loss, color desaturation), sensory disturbance, limb weakness, bladder symptoms, fatigue, balance problems. Relapsing-remitting most common.
+Urgency: Relapse → Neurology within 48 hours. Stable — routine. Severe relapse affecting mobility/vision → Urgent.
+Investigations: MRI brain and spine (demyelinating plaques), VEPs, CSF (oligoclonal bands).
+Treatment: IV methylprednisolone for relapses. Disease-modifying therapies: interferons, natalizumab, alemtuzumab.
+Triage: New diagnosis or relapse → Urgent neurology. Stable → Neurology outpatient.
+
+8. PARKINSON'S DISEASE
+Symptoms: Resting tremor (pill-rolling), bradykinesia (slowness), rigidity, postural instability. Non-motor: depression, constipation, sleep disturbance, cognitive decline.
+Urgency: Non-urgent for stable disease.
+Crisis: Sudden worsening (neuroleptic malignant-like syndrome if dopaminergics stopped abruptly) → Emergency.
+Treatment: Levodopa (most effective), dopamine agonists (pramipexole, ropinirole), MAO-B inhibitors (rasagiline), deep brain stimulation.
+Triage: Neurology outpatient. Do not stop medications suddenly.
+
+9. MENINGITIS
+Symptoms: Fever + severe headache + neck stiffness (meningism). May have photophobia, phonophobia, altered consciousness, non-blanching purpuric rash (bacterial/meningococcal — EMERGENCY).
+Urgency: EMERGENCY. Do not delay antibiotics for LP if meningococcal suspected.
+Treatment: IV ceftriaxone, dexamethasone. LP if no contraindications to confirm diagnosis.
+Triage: Emergency. Meningococcal rash → Emergency with immediate antibiotics.
+
+10. PERIPHERAL NEUROPATHY
+Symptoms: Burning, tingling, numbness in feet/hands (glove-stocking distribution). Weakness in advanced cases.
+Common causes: Diabetes, alcohol, vitamin B12 deficiency, hypothyroidism, medications.
+Urgency: Non-urgent unless acute (Guillain-Barré — ascending weakness → Emergency).
+Treatment: Treat underlying cause. Symptom control: pregabalin, gabapentin, duloxetine, amitriptyline.
+Triage: Neurology outpatient. Guillain-Barré → Emergency.
+
+NEUROLOGICAL EMERGENCIES — IMMEDIATE REFERRAL
+- Stroke (FAST symptoms): face droop, arm weakness, speech → Emergency
+- Thunderclap headache → Emergency (SAH)
+- Status epilepticus (ongoing seizure) → Emergency
+- Acute cord compression (bilateral leg weakness + sensory level + bladder/bowel) → Emergency
+- Meningitis/encephalitis (fever + confusion + stiff neck) → Emergency
+- Guillain-Barré (ascending paralysis) → Emergency
+
+HEADACHE RED FLAGS (EMERGENCY)
+- Sudden thunderclap onset
+- Worst headache ever
+- Fever + stiff neck
+- Neurological deficit
+- Papilledema (raised ICP)
+- New headache in patient > 50
+- Headache worsened by Valsalva / exertion
+- Progressive headache worsening over weeks
+
+MEDICATIONS IN NEUROLOGY
+- Levodopa/carbidopa: Parkinson's
+- Levetiracetam, valproate, lamotrigine: antiepileptics
+- Sumatriptan: migraine acute treatment
+- Topiramate, amitriptyline: migraine prevention
+- Clopidogrel + aspirin: TIA/stroke secondary prevention
+- Alteplase: stroke thrombolysis
+- Ceftriaxone: bacterial meningitis
+- Methylprednisolone: MS relapse
+- Pregabalin, gabapentin: neuropathic pain
+- Benzodiazepines (lorazepam): status epilepticus
+
+DIAGNOSTIC TOOLS
+- CT head: hemorrhage, stroke, masses (fast and widely available)
+- MRI brain: superior for demyelination, posterior fossa, subtle ischemia
+- EEG: seizure activity, encephalopathy
+- Lumbar puncture: meningitis, SAH (xanthochromia), MS (oligoclonal bands)
+- Nerve conduction studies: peripheral neuropathy, carpal tunnel
+- EMG: muscle and nerve disease
+- MR angiography: vascular malformations, aneurysms
+
+TRIAGE SUMMARY
+- Sudden face/arm/speech symptoms → Emergency (stroke)
+- Worst headache of life → Emergency (SAH)
+- Ongoing seizure → Emergency (status epilepticus)
+- Fever + neck stiffness + rash → Emergency (meningitis)
+- TIA (symptoms resolved) → Same-day neurology
+- Recurrent headaches, established migraine → Neurology outpatient
+- Tremor, slowness → Neurology outpatient (Parkinson's evaluation)
+- Tingling/numbness in hands/feet → Neurology outpatient

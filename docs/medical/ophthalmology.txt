@@ -1,0 +1,113 @@
+OPHTHALMOLOGY — Department Reference Guide
+
+OVERVIEW
+Ophthalmology deals with the anatomy, physiology, and diseases of the eye. Eye symptoms ranging from redness and discharge to sudden vision loss require ophthalmological evaluation.
+
+COMMON CONDITIONS
+
+1. CONJUNCTIVITIS (PINK EYE)
+Symptoms: Red eye, discharge (watery in viral, purulent/sticky in bacterial), itching, foreign body sensation, mild photophobia.
+Types: Bacterial, viral, allergic.
+Urgency: Non-urgent. Bacterial responds to antibiotic eye drops.
+Treatment:
+  - Bacterial: Chloramphenicol eye drops/ointment or ofloxacin drops for 5-7 days.
+  - Viral: Supportive (lubricating drops, cold compresses). Highly contagious.
+  - Allergic: Antihistamine drops (olopatadine), avoid allergens.
+Triage: Ophthalmology outpatient. If vision affected, urgent review.
+
+2. GLAUCOMA
+Acute Angle-Closure Glaucoma:
+Symptoms: Severe eye pain, headache, nausea/vomiting, halos around lights, sudden vision decrease, red eye, fixed mid-dilated pupil.
+Urgency: EMERGENCY — IOP can exceed 60 mmHg, causing permanent vision loss within hours.
+Treatment: IV acetazolamide, topical beta-blockers, pilocarpine, analgesics. Urgent laser iridotomy.
+Triage: Emergency ophthalmology.
+
+Open-Angle Glaucoma (Chronic):
+Symptoms: Gradual painless peripheral vision loss. Often asymptomatic until advanced.
+Urgency: Non-urgent. Routine ophthalmology referral.
+Treatment: IOP-lowering drops (timolol, latanoprost), laser trabeculoplasty, surgery.
+Triage: Ophthalmology outpatient.
+
+3. CATARACT
+Symptoms: Gradual blurring of vision, glare from lights especially at night, colors appear faded, double vision in one eye.
+Urgency: Non-urgent. Progressive condition.
+Treatment: Surgical phacoemulsification with intraocular lens implantation.
+Triage: Ophthalmology outpatient — surgical waiting list.
+
+4. RETINAL DETACHMENT
+Symptoms: Sudden flashes of light (photopsia), shower of floaters, shadow or curtain across visual field, painless.
+Urgency: EMERGENCY — surgical repair required within 24 hours to preserve central vision.
+Treatment: Scleral buckling, pneumatic retinopexy, or vitrectomy.
+Triage: Emergency ophthalmology immediately.
+
+5. CORNEAL ABRASION / FOREIGN BODY
+Symptoms: Sudden eye pain, watering, photophobia, foreign body sensation, reduced vision.
+Urgency: Urgent same-day assessment.
+Treatment: Remove foreign body under slit lamp, antibiotic drops, cycloplegic if needed, patch for large abrasions.
+Triage: Emergency eye unit or same-day ophthalmology.
+
+6. UVEITIS (IRITIS / ANTERIOR UVEITIS)
+Symptoms: Red eye, deep aching eye pain, photophobia, blurred vision, small irregular pupil, keratic precipitates.
+Urgency: Urgent review within 24-48 hours. Can lead to glaucoma, cataract, and blindness if untreated.
+Treatment: Topical corticosteroids (prednisolone acetate), cycloplegics (atropine), treat underlying cause.
+Triage: Urgent ophthalmology.
+
+7. DIABETIC RETINOPATHY
+Symptoms: Gradual vision loss, floaters, dark spots. May be asymptomatic in early stages.
+Urgency: Non-urgent. Annual screening recommended for all diabetic patients.
+Stages: Background, pre-proliferative, proliferative, maculopathy.
+Treatment: Tight glycemic control, intravitreal anti-VEGF injections (for maculopathy), laser photocoagulation.
+Triage: Ophthalmology outpatient — annual diabetic eye check.
+
+8. DRY EYE SYNDROME (KERATOCONJUNCTIVITIS SICCA)
+Symptoms: Grittiness, burning, redness, blurred vision (especially with reading/screen use), paradoxical watering.
+Urgency: Non-urgent.
+Treatment: Artificial tears, lubricating gels at night, warm compresses, omega-3 supplements, punctal plugs.
+Triage: Ophthalmology outpatient.
+
+9. STYE (HORDEOLUM) AND CHALAZION
+Stye: Acute painful red lump at eyelid margin. Treat with warm compresses, antibiotic ointment.
+Chalazion: Chronic non-tender eyelid lump. Warm compresses, may need incision and curettage.
+Urgency: Non-urgent.
+Triage: Ophthalmology outpatient or GP.
+
+10. CENTRAL RETINAL ARTERY OCCLUSION (CRAO)
+Symptoms: Sudden painless complete monocular vision loss. "Cherry red spot" on fundoscopy.
+Urgency: EMERGENCY — treat within 90 minutes for any chance of recovery.
+Treatment: Ocular massage, IOP-lowering, hyperbaric oxygen, urgent thrombolysis in some centers.
+Triage: Emergency ophthalmology immediately.
+
+EMERGENCY EYE CONDITIONS — IMMEDIATE REFERRAL
+- Acute angle-closure glaucoma (severe pain + vision loss + nausea)
+- Retinal detachment (curtain/shadow + flashes + floaters)
+- Central retinal artery/vein occlusion (sudden painless vision loss)
+- Chemical eye injury (alkali burns especially — irrigate immediately)
+- Penetrating eye injury / globe rupture
+- Orbital cellulitis (proptosis + restricted eye movement + fever)
+
+COMMON EYE MEDICATIONS
+- Chloramphenicol: broad-spectrum antibiotic drops
+- Ofloxacin / Ciprofloxacin: fluoroquinolone antibiotic drops
+- Timolol: beta-blocker, lowers IOP
+- Latanoprost: prostaglandin analogue, lowers IOP
+- Prednisolone acetate: topical corticosteroid
+- Atropine / Tropicamide: cycloplegics (pupil dilators)
+- Olopatadine: antihistamine drops for allergic conjunctivitis
+- Lubricating artificial tears: dry eye
+
+DIAGNOSTIC TOOLS
+- Visual acuity testing (Snellen chart)
+- Slit-lamp biomicroscopy
+- Tonometry (IOP measurement)
+- Fundoscopy / Ophthalmoscopy
+- OCT (optical coherence tomography): retinal imaging
+- Fluorescein angiography: vascular assessment
+- Visual field testing (perimetry): glaucoma monitoring
+
+TRIAGE SUMMARY
+- Red eye + discharge, no vision change → Ophthalmology outpatient
+- Eye pain + headache + nausea + halos → Emergency (angle-closure glaucoma)
+- Curtain/shadow across vision → Emergency (retinal detachment)
+- Sudden painless total vision loss → Emergency (CRAO/CRVO)
+- Gradual vision blur → Ophthalmology outpatient
+- Eye infection with systemic signs → Consider orbital cellulitis (Emergency)

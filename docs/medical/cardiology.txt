@@ -1,0 +1,102 @@
+CARDIOLOGY — Department Reference Guide
+
+OVERVIEW
+Cardiology is the branch of medicine dealing with disorders of the heart and the cardiovascular system. Patients with chest pain, palpitations, shortness of breath, or syncope should be evaluated by cardiology.
+
+COMMON CONDITIONS
+
+1. ACUTE MYOCARDIAL INFARCTION (HEART ATTACK)
+Symptoms: Crushing chest pain radiating to left arm or jaw, sweating, nausea, shortness of breath, feeling of impending doom.
+Urgency: LIFE-THREATENING — immediate emergency response required.
+ECG findings: ST elevation in affected leads (STEMI) or ST depression/T-wave changes (NSTEMI).
+Treatment: Aspirin 300mg immediately, nitrates if BP permits, anticoagulation, urgent PCI or thrombolysis within 90 minutes.
+Triage: Emergency department → Cardiology. Ambulance required. Do not delay.
+
+2. STABLE ANGINA PECTORIS
+Symptoms: Chest tightness or pressure with exertion, relieved by rest or nitrates. No pain at rest.
+Urgency: Non-urgent outpatient referral.
+Investigations: Stress ECG, echocardiogram, coronary angiography if needed.
+Treatment: Beta-blockers, nitrates, statins, aspirin, lifestyle modification.
+Triage: Cardiology outpatient clinic, book appointment within 2 weeks.
+
+3. UNSTABLE ANGINA
+Symptoms: Chest pain at rest, new-onset chest pain, or worsening pattern of angina.
+Urgency: HIGH — same-day cardiology assessment.
+Treatment: Aspirin, heparin, beta-blockers, nitrates, urgent coronary angiography.
+Triage: Emergency cardiology assessment.
+
+4. HEART FAILURE (CONGESTIVE HEART FAILURE)
+Symptoms: Shortness of breath on exertion or lying flat (orthopnea), leg swelling (edema), fatigue, reduced exercise tolerance, weight gain.
+Urgency: Acute exacerbations require emergency care. Stable chronic heart failure is managed outpatient.
+Investigations: BNP/NT-proBNP, echocardiogram, chest X-ray (shows cardiomegaly, pulmonary edema).
+Treatment: Diuretics (furosemide), ACE inhibitors, beta-blockers, mineralocorticoid antagonists.
+Triage: Acute — Emergency. Stable — Cardiology outpatient.
+
+5. ATRIAL FIBRILLATION (AF)
+Symptoms: Palpitations, irregular heartbeat, shortness of breath, dizziness, fatigue.
+Urgency: New-onset with hemodynamic instability — Emergency. Chronic stable AF — Cardiology outpatient.
+Investigations: 12-lead ECG (absent P waves, irregularly irregular rhythm), echocardiogram, thyroid function.
+Treatment: Rate control (beta-blockers, digoxin), rhythm control (antiarrhythmics), anticoagulation (warfarin, NOACs) for stroke prevention.
+Triage: Acute unstable — Emergency. Stable — Cardiology.
+
+6. HYPERTENSIVE CRISIS
+Symptoms: Severe headache, visual changes, chest pain, shortness of breath. BP typically > 180/120 mmHg.
+Hypertensive urgency: No end-organ damage. Oral medications, outpatient management.
+Hypertensive emergency: End-organ damage present. Requires ICU admission, IV antihypertensives.
+Triage: Emergency department.
+
+7. AORTIC STENOSIS
+Symptoms: Exertional chest pain, syncope, heart failure symptoms. Classic triad: angina, syncope, dyspnea.
+Urgency: Symptomatic aortic stenosis carries high mortality — urgent cardiology referral.
+Investigations: Echocardiogram (valve area < 1.0 cm² = severe stenosis).
+Treatment: Aortic valve replacement (surgical or TAVR).
+Triage: Cardiology, urgent referral.
+
+RISK FACTORS FOR CARDIAC DISEASE
+- Hypertension
+- Diabetes mellitus
+- Hyperlipidemia
+- Smoking
+- Family history of premature cardiovascular disease
+- Obesity
+- Sedentary lifestyle
+- Age > 45 (men), > 55 (women)
+
+EMERGENCY INDICATORS — REFER TO EMERGENCY IMMEDIATELY
+- Chest pain with radiation to arm, jaw, or back
+- Sudden severe chest pain (possible aortic dissection)
+- Cardiac arrest (no pulse, not breathing)
+- Acute shortness of breath at rest
+- Syncope with cardiac symptoms
+- Heart rate > 150 bpm or < 40 bpm with hemodynamic instability
+- ST elevation on ECG
+
+MEDICATIONS USED IN CARDIOLOGY
+- Aspirin: antiplatelet
+- Clopidogrel/Ticagrelor: P2Y12 inhibitors
+- Metoprolol, Bisoprolol: beta-blockers
+- Ramipril, Lisinopril: ACE inhibitors
+- Amlodipine, Nifedipine: calcium channel blockers
+- Atorvastatin, Rosuvastatin: statins
+- Warfarin, Rivaroxaban, Apixaban: anticoagulants
+- Furosemide: loop diuretic
+- Isosorbide mononitrate: long-acting nitrate
+- Digoxin: rate control in AF
+
+DIAGNOSTIC TOOLS
+- 12-lead ECG: first-line for all cardiac complaints
+- Troponin I/T: myocardial injury marker (elevated in MI)
+- BNP/NT-proBNP: heart failure marker
+- Echocardiogram: cardiac structure and function
+- Stress testing: evaluate ischemia on exertion
+- Coronary angiography: definitive assessment of coronary arteries
+- Holter monitor: 24-48 hour ECG for arrhythmias
+- Chest X-ray: pulmonary edema, cardiomegaly
+
+TRIAGE SUMMARY
+- Crushing chest pain → Emergency (possible MI)
+- Palpitations + hemodynamic instability → Emergency
+- Stable chest pain on exertion → Cardiology outpatient
+- Heart failure, stable → Cardiology outpatient
+- New-onset AF, stable → Cardiology within 24-48 hours
+- Hypertensive urgency → Cardiology or internal medicine

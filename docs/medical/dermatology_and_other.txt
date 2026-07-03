@@ -1,0 +1,97 @@
+DERMATOLOGY AND MISCELLANEOUS CONDITIONS — Reference Guide
+
+DERMATOLOGY
+
+1. ECZEMA (ATOPIC DERMATITIS)
+Symptoms: Dry, itchy, inflamed skin. Commonly affects flexural areas (elbow creases, behind knees), face in children. Chronic relapsing course.
+Triggers: Soaps, detergents, dust mites, certain foods, stress, dry weather.
+Treatment: Emollients (mainstay), topical corticosteroids (mild: hydrocortisone, moderate: betamethasone valerate, potent: clobetasol), topical calcineurin inhibitors (tacrolimus), antihistamines for itch, dupilumab (severe/refractory).
+Infected eczema: Flucloxacillin or cefalexin for bacterial superinfection (often Staph aureus).
+Triage: GP/Dermatology outpatient. Emergency if erythroderma (widespread skin failure).
+
+2. PSORIASIS
+Symptoms: Well-demarcated erythematous plaques with silvery scales. Affects extensor surfaces (elbows, knees), scalp, nails (pitting, onycholysis). Associated with psoriatic arthritis (10-30%).
+Treatment: Topical corticosteroids, vitamin D analogues (calcipotriol), coal tar. Moderate-severe: methotrexate, cyclosporine, acitretin, biologics (adalimumab, secukinumab).
+Triage: Dermatology outpatient.
+
+3. ACNE VULGARIS
+Symptoms: Comedones (blackheads, whiteheads), papules, pustules, nodules/cysts on face, chest, back.
+Treatment: Benzoyl peroxide, topical retinoids (tretinoin), topical antibiotics (clindamycin), combined OCP for women, oral antibiotics (doxycycline), isotretinoin for severe nodular acne.
+Triage: GP/Dermatology outpatient.
+
+4. URTICARIA (HIVES)
+Symptoms: Itchy raised wheals (red or pale) of varying sizes, appearing and resolving within 24 hours. Can be acute (< 6 weeks) or chronic (> 6 weeks).
+Acute urticaria + angioedema: Rule out anaphylaxis.
+Treatment: Antihistamines (cetirizine, loratadine), oral steroids for acute flares.
+Triage: Urticaria alone → Dermatology/Allergy. With airway involvement → Emergency.
+
+5. CELLULITIS
+Symptoms: Warm, red, swollen, painful area of skin. Commonly affects lower legs. Associated with lymphedema, skin breaks.
+Cause: Streptococcus pyogenes, Staphylococcus aureus.
+Treatment: Mild: oral cefalexin or flucloxacillin. Severe/spreading: IV antibiotics (benzylpenicillin + flucloxacillin).
+Necrotizing fasciitis: Rapidly spreading, disproportionate pain, skin necrosis, crepitus → SURGICAL EMERGENCY.
+Triage: Mild → GP. Spreading/systemic → General Medicine/Emergency. Necrotizing fasciitis → Emergency surgery.
+
+6. HERPES ZOSTER (SHINGLES)
+Symptoms: Dermatomal burning pain, then vesicular rash following a single dermatome (does not cross midline). Postherpetic neuralgia is the main complication.
+Treatment: Antiviral (aciclovir/valaciclovir) within 72 hours of rash onset, especially in immunocompromised and > 50 years. Pain management.
+Triage: GP/Dermatology. Emergency if ophthalmic zoster (affects eye) → Ophthalmology urgently.
+
+ENT (EAR, NOSE, AND THROAT)
+
+7. OTITIS MEDIA (MIDDLE EAR INFECTION)
+Symptoms: Ear pain, fever, hearing loss. In children: irritability, pulling at ear.
+Treatment: Analgesia. Antibiotics if < 2 years, bilateral, or severe (amoxicillin first-line).
+Complication: Mastoiditis (ear pain + postauricular swelling + fever) → Emergency.
+Triage: GP. Mastoiditis → Emergency/ENT.
+
+8. TONSILLITIS AND PERITONSILLAR ABSCESS
+Tonsillitis: Sore throat, fever, exudate on tonsils, cervical lymphadenopathy.
+Treatment: Analgesia, penicillin V or amoxicillin (if bacterial). Test for glandular fever (EBV).
+Peritonsillar abscess (Quinsy): Unilateral tonsillar swelling, uvular deviation, "hot potato" voice, trismus, drooling → Urgent ENT drainage.
+Triage: Tonsillitis → GP. Quinsy → Emergency/ENT.
+
+9. EPISTAXIS (NOSEBLEED)
+Anterior: Kiesselbach's plexus (Little's area). Lean forward, pinch soft part of nose for 10-20 minutes.
+Posterior: More severe, usually in elderly hypertensives. May require nasal packing or cautery.
+Triage: Minor → GP. Persistent/severe/posterior → Emergency.
+
+GASTROENTEROLOGY
+
+10. GASTROENTERITIS
+Symptoms: Nausea, vomiting, diarrhea, abdominal cramps, fever (if bacterial).
+Causes: Norovirus (most common), rotavirus, Salmonella, Campylobacter, E. coli.
+Treatment: Oral rehydration therapy (ORT). IV fluids if unable to tolerate oral. Antibiotics only for specific bacterial gastroenteritis (Campylobacter, Salmonella with systemic signs).
+Triage: Mild-moderate → GP. Severe dehydration/unable to tolerate fluids → General Medicine/Emergency.
+
+11. PEPTIC ULCER DISEASE
+Symptoms: Epigastric pain, may radiate to back. Worse with food (gastric ulcer) or relieved by food (duodenal ulcer). Nausea, bloating.
+Causes: H. pylori infection (80%), NSAIDs, smoking, stress.
+Complications: Bleeding (haematemesis, melena), perforation (board-like abdomen), obstruction.
+Treatment: PPI (omeprazole, pantoprazole) + H. pylori eradication (triple therapy: amoxicillin + clarithromycin + PPI for 7 days).
+Triage: Uncomplicated → General Medicine/Gastroenterology outpatient. Bleeding/perforation → Emergency.
+
+12. IRRITABLE BOWEL SYNDROME (IBS)
+Symptoms: Recurrent abdominal pain + altered bowel habit (diarrhea, constipation, or mixed). Bloating, mucus in stool. Symptoms worse with stress. No structural pathology.
+Red flags requiring investigation: rectal bleeding, unintentional weight loss, nocturnal symptoms, family history of bowel cancer, age > 50.
+Treatment: Dietary modifications (low-FODMAP diet), antispasmodics (mebeverine, hyoscine), loperamide (diarrhea-predominant), laxatives (constipation-predominant), CBT/mindfulness.
+Triage: GP/Gastroenterology outpatient after exclusion of organic disease.
+
+RHEUMATOLOGY
+
+13. GOUT
+Symptoms: Sudden onset severe joint pain, most commonly first metatarsophalangeal joint (big toe). Red, hot, swollen joint. Triggered by alcohol, purine-rich foods, dehydration, diuretics.
+Investigation: Serum uric acid (may be normal during attack), joint aspirate (needle-shaped urate crystals under polarized light).
+Treatment: Acute: NSAIDs (naproxen), colchicine, or corticosteroids. Prophylaxis: allopurinol, febuxostat.
+Triage: GP/Rheumatology outpatient. Rule out septic arthritis if unsure.
+
+TRIAGE QUICK REFERENCE — DERMATOLOGY / ENT / GI / RHEUMATOLOGY
+- Itchy red rash, stable → Dermatology outpatient
+- Rapidly spreading skin infection → Emergency (necrotizing fasciitis)
+- Unilateral tonsillar swelling + uvular deviation → Emergency (quinsy)
+- Ear pain + postauricular swelling → Emergency (mastoiditis)
+- Upper GI bleeding (haematemesis/melena) → Emergency
+- Severe abdominal pain + rigid abdomen → Emergency (perforation)
+- Joint pain + fever → Rule out septic arthritis → Emergency
+- Chronic joint pain, well → Rheumatology outpatient
+- Skin rash + urticaria + wheeze → Emergency (anaphylaxis)

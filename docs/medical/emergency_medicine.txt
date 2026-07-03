@@ -1,0 +1,141 @@
+EMERGENCY MEDICINE — Triage and Urgency Reference Guide
+
+OVERVIEW
+Emergency medicine manages acute, life-threatening, and time-critical conditions. Accurate triage determines the order and urgency of care. This guide covers the major emergency presentations, triage criteria, and first-line management principles.
+
+TRIAGE CLASSIFICATION (EMERGENCY SEVERITY INDEX)
+
+Level 1 — IMMEDIATE / RESUSCITATION
+Condition: Life-threatening. Immediate intervention required. Risk of death within minutes.
+Examples: Cardiac arrest, respiratory arrest, massive hemorrhage, status epilepticus, anaphylaxis with airway compromise, coma (GCS < 8).
+Response time: NOW.
+
+Level 2 — EMERGENT
+Condition: High risk of deterioration. Could deteriorate to life-threatening if not treated rapidly.
+Examples: Chest pain (possible MI), stroke (FAST positive), severe respiratory distress, active seizure, altered consciousness, severe sepsis, major trauma.
+Response time: < 15 minutes.
+
+Level 3 — URGENT
+Condition: Stable but requires prompt evaluation.
+Examples: Moderate abdominal pain, fractures (closed, stable), severe headache (not thunderclap), UTI with systemic signs, moderate dyspnea.
+Response time: < 30 minutes.
+
+Level 4 — LESS URGENT
+Condition: Patient stable, condition unlikely to deteriorate.
+Examples: Minor lacerations, mild fever, ear pain, ankle sprain, simple UTI.
+Response time: < 60 minutes.
+
+Level 5 — NON-URGENT
+Condition: Chronic or minor complaints.
+Examples: Follow-up for chronic conditions, minor rashes, medication refills.
+Response time: < 120 minutes.
+
+MAJOR EMERGENCY PRESENTATIONS
+
+1. CARDIAC ARREST
+Presentation: Unresponsive, not breathing normally, no pulse.
+Action: Call code, start CPR immediately (30:2 compressions:breaths), attach AED/defibrillator.
+Advanced: Epinephrine 1mg IV every 3-5 minutes. Treat reversible causes (4 H's and 4 T's).
+ROSC target: Return of spontaneous circulation, then post-cardiac arrest care, targeted temperature management.
+
+2. ACUTE CORONARY SYNDROME (ACS)
+STEMI: ST elevation in ≥ 2 contiguous leads. Target door-to-balloon time < 90 minutes (PCI) or thrombolysis < 30 minutes.
+NSTEMI/UA: No ST elevation. Heparin, dual antiplatelet, early angiography if high-risk.
+Initial management: Aspirin 300mg, oxygen if SpO2 < 94%, IV access, 12-lead ECG, troponin, GTN if BP > 90 systolic.
+Morphine contraindicated (associated with worse outcomes in STEMI).
+
+3. STROKE / TIA
+FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency.
+CT head IMMEDIATELY: To exclude hemorrhage before thrombolysis.
+Thrombolysis window: IV alteplase within 4.5 hours of symptom onset (if no contraindications).
+Thrombectomy window: Up to 24 hours in selected patients.
+Do NOT delay imaging for blood results if stroke suspected.
+
+4. RESPIRATORY EMERGENCIES
+Acute Severe Asthma: SpO2 < 92%, PEFR < 33% predicted, silent chest, cyanosis, exhaustion → Near-fatal. Immediate nebulized salbutamol + ipratropium, systemic steroids, IV magnesium, possible intubation.
+COPD Exacerbation: Controlled oxygen (target 88-92%), bronchodilators, steroids, antibiotics. Non-invasive ventilation if pH < 7.35.
+Pulmonary Embolism: Sudden dyspnea + tachycardia + pleuritic pain + risk factors. CT pulmonary angiography. Anticoagulation (heparin). Thrombolysis if massive PE with hemodynamic compromise.
+Tension Pneumothorax: Tracheal deviation, absent breath sounds, hypotension, raised JVP. IMMEDIATE needle decompression before X-ray.
+
+5. ANAPHYLAXIS
+Triggers: Food (peanuts, shellfish), drugs (penicillin, NSAIDs, contrast), insect stings.
+Signs: Urticaria, angioedema, bronchospasm (wheeze), hypotension, tachycardia, stridor.
+Treatment: Epinephrine (adrenaline) 0.5mg IM (thigh) immediately. Oxygen, IV fluid, antihistamines, steroids. Observe 4-6 hours minimum.
+Biphasic reaction: Can recur 4-12 hours after initial episode.
+
+6. SEPSIS AND SEPTIC SHOCK
+Sepsis: Life-threatening organ dysfunction from dysregulated response to infection.
+Signs: Fever or hypothermia, tachycardia, tachypnea, altered consciousness, hypotension (SBP < 90 or MAP < 65).
+Septic shock: Sepsis + vasopressor requirement + lactate > 2 mmol/L.
+Sepsis Six (within 1 hour): Blood cultures, IV antibiotics, fluid bolus (30mL/kg crystalloid), urine output monitoring, oxygen, lactate measurement.
+Antibiotics: Broad-spectrum empirically (piperacillin-tazobactam, meropenem for severe). Narrow when cultures return.
+
+7. MAJOR TRAUMA
+Primary Survey (ABCDE): Airway, Breathing, Circulation (hemorrhage control), Disability (GCS, pupils), Exposure.
+Massive Hemorrhage: Direct pressure, tourniquet for limb, permissive hypotension (MAP 50-65 for penetrating trauma).
+Trauma Triad of Death: Acidosis + hypothermia + coagulopathy — prevent and treat aggressively.
+Imaging: FAST ultrasound (abdominal hemorrhage), CT trauma series, chest/pelvis X-ray.
+
+8. ACUTE ABDOMEN
+Differential: Appendicitis, perforated viscus, intestinal obstruction, ischemic bowel, ruptured AAA, acute pancreatitis.
+Ruptured AAA: Sudden severe back/abdominal pain + pulsatile mass + hypotension → Emergency surgery immediately.
+Perforated peptic ulcer: Board-like rigidity, absent bowel sounds, free air under diaphragm on erect CXR → Emergency surgery.
+Appendicitis: RIF pain, rebound tenderness, low-grade fever, elevated WBC. CT if diagnosis unclear. Surgical appendectomy.
+
+9. ALTERED CONSCIOUSNESS / COMA
+Causes: AEIOU TIPS — Alcohol, Epilepsy, Insulin (hypoglycemia/hyperglycemia), Opiates, Uremia, Trauma, Infection, Psychiatric, Stroke.
+Initial management: Secure airway, IV glucose (if hypoglycemia suspected), IV thiamine, naloxone (if opiate OD), CT head.
+GCS < 8: Intubation for airway protection.
+
+10. POISONING AND OVERDOSE
+General: ABC, decontamination (activated charcoal if < 1 hour, alert patient), specific antidotes.
+Common antidotes:
+  - Paracetamol overdose: N-acetylcysteine (within 8 hours)
+  - Opioid overdose: Naloxone IV/IM/intranasal
+  - Benzodiazepine overdose: Flumazenil (use caution)
+  - Organophosphate: Atropine + pralidoxime
+  - Tricyclic antidepressant OD: IV sodium bicarbonate
+
+EMERGENCY MEDICATIONS
+- Epinephrine (adrenaline): anaphylaxis, cardiac arrest
+- Aspirin 300mg: ACS
+- Alteplase: stroke/PE
+- Ceftriaxone: sepsis/meningitis
+- Morphine/fentanyl: severe pain (not ACS)
+- GTN: ACS (if BP adequate)
+- Salbutamol: asthma/COPD
+- Ipratropium: COPD/severe asthma
+- IV methylprednisolone: asthma/COPD/anaphylaxis
+- Lorazepam/diazepam: seizures
+- Naloxone: opioid overdose
+- N-acetylcysteine: paracetamol overdose
+- Glucose (10% or 50%): hypoglycemia
+- Normal saline / Hartmann's: fluid resuscitation
+
+AMBULANCE DISPATCH CRITERIA
+Dispatch ambulance IMMEDIATELY for:
+- Cardiac arrest or near-arrest
+- Active seizure or post-ictal state
+- Stroke (FAST positive)
+- Severe respiratory distress (SpO2 < 90%, unable to speak in sentences)
+- Major trauma
+- Anaphylaxis
+- Altered consciousness (GCS < 14)
+- Suspected AMI with ongoing chest pain
+- Severe abdominal pain with hemodynamic instability
+- Any patient who is deteriorating rapidly
+
+TIMER-BASED ESCALATION FOR EMERGENCY DISPATCH
+- Heart attack (ongoing chest pain): Dispatch within 30 seconds
+- Stroke (FAST positive, active): Dispatch within 60 seconds
+- Severe trauma: Immediate dispatch
+- Anaphylaxis with bronchospasm: Immediate dispatch
+- Status epilepticus (ongoing seizure): Dispatch within 30 seconds
+- Respiratory failure (SpO2 < 90%): Dispatch within 30 seconds
+
+KEY EMERGENCY NUMBERS AND PROTOCOLS
+- Cardiac arrest: Code Blue / CPR team
+- Trauma: Trauma team activation
+- Stroke: Stroke team activation (brain attack protocol)
+- Obstetric emergency: Maternity emergency team
+- Chemical/biohazard: HAZMAT protocol

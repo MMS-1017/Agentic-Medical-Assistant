@@ -1,0 +1,116 @@
+ORTHOPEDICS — Department Reference Guide
+
+OVERVIEW
+Orthopedics deals with the musculoskeletal system including bones, joints, ligaments, tendons, and muscles. Patients with fractures, joint pain, sports injuries, and back problems are referred to orthopedics.
+
+COMMON CONDITIONS
+
+1. FRACTURES
+Symptoms: Pain at injury site, swelling, deformity, bruising, inability to bear weight or use limb, crepitus (bone grating sound).
+Types:
+  - Closed (simple): skin intact
+  - Open (compound): bone protrudes through skin — HIGH risk of infection
+  - Stress fracture: hairline fracture from repetitive stress
+  - Pathological: fracture through diseased bone (osteoporosis, cancer)
+Urgency:
+  - Open fracture → Emergency (risk of osteomyelitis, vascular injury)
+  - Femoral neck fracture in elderly → Emergency surgery within 36 hours
+  - Closed fracture, stable → Urgent orthopedics within 24-48 hours
+  - Suspected spine fracture → Emergency (risk of cord injury)
+Treatment: Immobilization, reduction (closed or open), internal/external fixation, casting, pain control.
+Triage: Open/unstable fractures → Emergency. Closed stable fractures → Orthopedics urgent clinic.
+
+2. OSTEOARTHRITIS (OA)
+Symptoms: Gradual joint pain worsening with activity, joint stiffness (especially morning stiffness < 30 minutes), crepitus, reduced range of motion. Commonly affects knees, hips, hands, spine.
+Urgency: Non-urgent. Chronic progressive condition.
+Investigations: X-ray (joint space narrowing, osteophytes, subchondral sclerosis).
+Treatment: Weight loss, physiotherapy, analgesics (paracetamol, NSAIDs), intra-articular corticosteroid injections, joint replacement surgery (arthroplasty) in severe cases.
+Triage: Orthopedics outpatient.
+
+3. RHEUMATOID ARTHRITIS (RA)
+Symptoms: Symmetrical joint pain and swelling, prolonged morning stiffness (> 1 hour), fatigue, low-grade fever. Small joints of hands and feet typically affected first.
+Urgency: Non-urgent. Requires rheumatology involvement. Orthopedics for joint damage/deformity.
+Investigations: RF, anti-CCP antibodies, CRP/ESR, X-ray.
+Treatment: DMARDs (methotrexate first-line), biologics (TNF inhibitors), NSAIDs for symptoms.
+Triage: Rheumatology (primary) + Orthopedics for surgical management.
+
+4. BACK PAIN — ACUTE LOW BACK PAIN
+Symptoms: Pain in lumbar region, muscle spasm, limited movement.
+Red flags (require urgent investigation):
+  - Bilateral leg weakness or numbness
+  - Bladder or bowel dysfunction (cauda equina syndrome — EMERGENCY)
+  - Night pain not relieved by rest (cancer/infection)
+  - History of malignancy
+  - Fever + back pain (possible spinal infection)
+Urgency: With red flags → Emergency. Without red flags → Conservative management.
+Treatment: Paracetamol, NSAIDs, short course muscle relaxants, physiotherapy, avoid bed rest.
+Triage: Cauda equina signs → Emergency. Mechanical back pain → GP / Orthopedics if persistent > 6 weeks.
+
+5. INTERVERTEBRAL DISC PROLAPSE (SLIPPED DISC)
+Symptoms: Back pain radiating to leg (sciatica), tingling or numbness in leg/foot, worse with sitting/bending/coughing. Positive straight leg raise test.
+Urgency: Usually non-urgent unless neurological compromise.
+Investigations: MRI spine (preferred over CT).
+Treatment: Conservative (analgesics, physiotherapy) for 6-12 weeks. Surgery (microdiscectomy) if conservative treatment fails or progressive neurology.
+Triage: Orthopedics or neurosurgery outpatient. Emergency if cauda equina involvement.
+
+6. ANTERIOR CRUCIATE LIGAMENT (ACL) TEAR
+Symptoms: Knee injury (usually twisting mechanism), "pop" felt/heard, rapid swelling (hemarthrosis), knee instability, inability to continue activity.
+Urgency: Non-urgent in isolation. Urgent if vascular injury suspected.
+Investigations: MRI knee.
+Treatment: RICE (rest, ice, compression, elevation), physiotherapy for rehabilitation, surgical reconstruction if significant instability.
+Triage: Orthopedics outpatient. Emergency if vascular compromise.
+
+7. SHOULDER DISLOCATION
+Symptoms: Deformity of shoulder, severe pain, arm held in abduction/external rotation, loss of deltoid contour, inability to move shoulder.
+Urgency: Urgent — requires reduction, ideally within 6 hours.
+Treatment: Sedation/analgesia, closed reduction (Cunningham, Kocher techniques), sling for 3-6 weeks, physiotherapy.
+Triage: Emergency department for reduction. Orthopedics follow-up for rehabilitation.
+
+8. CARPAL TUNNEL SYNDROME
+Symptoms: Tingling, numbness, pain in hand and fingers (especially thumb, index, middle finger). Worse at night, relieved by shaking hand. Weakness of grip in advanced cases.
+Urgency: Non-urgent.
+Investigations: Nerve conduction studies.
+Treatment: Wrist splints (especially at night), steroid injections, surgical carpal tunnel release if conservative fails.
+Triage: Orthopedics outpatient.
+
+9. TENDINOPATHY (TENDINITIS)
+Examples: Rotator cuff tendinopathy, Achilles tendinopathy, patellar tendinopathy, lateral epicondylitis (tennis elbow).
+Symptoms: Pain over tendon, worsened by activity, tender on palpation, no swelling in early stages.
+Urgency: Non-urgent.
+Treatment: Activity modification, eccentric exercises, physiotherapy, NSAIDs, steroid injections.
+Triage: Orthopedics or sports medicine outpatient.
+
+EMERGENCY ORTHOPEDIC CONDITIONS
+- Open (compound) fracture — skin broken over fracture
+- Vascular injury with fracture (cold, pulseless limb)
+- Compartment syndrome: severe pain, tight swollen limb, pain with passive stretch → Emergency fasciotomy
+- Cauda equina syndrome: bilateral leg weakness + urinary/bowel dysfunction
+- Septic arthritis: hot, swollen joint + fever → Emergency joint washout
+- Spinal cord injury: any neurological deficit after trauma
+
+MEDICATIONS IN ORTHOPEDICS
+- Paracetamol: first-line analgesic
+- NSAIDs (ibuprofen, diclofenac, naproxen): anti-inflammatory, analgesia
+- Tramadol, codeine: moderate pain
+- Morphine: severe acute pain
+- Corticosteroid injections: local anti-inflammatory
+- Calcium + Vitamin D: osteoporosis prevention/treatment
+- Bisphosphonates (alendronate): osteoporosis treatment
+- Tranexamic acid: reduces surgical blood loss
+
+DIAGNOSTIC TOOLS
+- X-ray: fractures, joint degeneration, alignment
+- MRI: soft tissue (ligaments, tendons, cartilage, discs, spinal cord)
+- CT: complex fractures, 3D surgical planning
+- Ultrasound: tendons, soft tissue, guided injections
+- Bone scan: stress fractures, metastases
+- Arthroscopy: diagnostic and therapeutic joint procedure
+
+TRIAGE SUMMARY
+- Bone fracture with skin intact → Orthopedics urgent
+- Open fracture / vascular compromise → Emergency
+- Knee injury + joint instability → Orthopedics outpatient
+- Back pain + leg weakness + bladder dysfunction → Emergency (cauda equina)
+- Joint swelling + fever → Emergency (septic arthritis)
+- Chronic joint pain → Orthopedics outpatient
+- Shoulder dislocation → Emergency for reduction
