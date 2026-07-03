@@ -24,29 +24,70 @@ via text, voice, or medical images. It provides:
 
 ## Quick Start
 
-1. Install dependencies:
+### Step 1 — Clone & configure
 
 ```bash
-python -m pip install -r requirements.txt
+git clone <repo-url> && cd Agentic-Medical-Assistant
+copy .env.example .env   # Windows
+# cp .env.example .env   # macOS/Linux
 ```
 
-2. Copy the environment template and edit values:
+Edit `.env` and fill in at minimum:
+- `GROQ_API_KEY` — your [Groq API key](https://console.groq.com)
+- `OPENROUTER_API_KEY` — your [OpenRouter key](https://openrouter.ai)
+- `SECRET_KEY` — any long random string
+
+### Step 2 — Start infrastructure services
 
 ```bash
-copy .env.example .env
+# Dev only — starts postgres, qdrant, langfuse
+docker compose -f infrastructure/docker-compose.yml up -d
 ```
 
-3. Start services with Docker Compose (for DB & vector store):
+Wait ~10 seconds, then verify all services are running:
 
 ```bash
-docker compose up -d
+docker compose -f infrastructure/docker-compose.yml ps
 ```
 
-4. Run the backend locally:
+### Step 3 — Install Python dependencies
 
 ```bash
-python -m backend.app
+# Create and activate a virtual environment (recommended)
+python -m venv .venv
+.venv\Scripts\activate     # Windows
+# source .venv/bin/activate  # macOS/Linux
+
+pip install -r requirements.txt
 ```
+
+### Step 4 — Seed databases & ingest medical knowledge
+
+```bash
+python scripts/setup.py
+```
+
+### Step 5 — Start the API server
+
+```bash
+uvicorn backend.app:app --reload --host 0.0.0.0 --port 8000
+```
+
+### Step 6 — (Optional) Run the frontend
+
+```bash
+cd frontend && npm install && npm run dev
+# → http://localhost:5173
+```
+
+### Step 7 — Explore the API
+
+| URL | Description |
+|-----|-------------|
+| `http://localhost:8000/docs` | Interactive Swagger UI |
+| `http://localhost:8000/redoc` | ReDoc documentation |
+| `http://localhost:8000/health` | Health check |
+| `http://localhost:3000` | Langfuse monitoring dashboard |
 
 ## Development
 
@@ -65,10 +106,32 @@ black .
 
 ## Project Structure
 
-- `backend/` — FastAPI app, agents, services, and database models
-- `frontend/` — Vue 3 client (Chat UI & views)
-- `docs/medical/` — Medical documents used for RAG
-- `infrastructure/` — Docker Compose and DB init scripts
+```
+Agentic-Medical-Assistant/
+├── backend/                  # FastAPI app, agents, services, and database models
+│   ├── agents/               # LangGraph agent nodes (orchestrator, diagnosis, etc.)
+│   ├── api/                  # FastAPI routers (auth, chat, patients, prescriptions, admin)
+│   ├── database/             # SQLAlchemy models for all 4 logical databases
+│   ├── llm/                  # LLM provider abstraction (Groq + OpenRouter)
+│   ├── rag/                  # RAG pipeline (ingestion, retrieval, Qdrant client)
+│   ├── services/             # Auth, HITL, multimodal, notification, session services
+│   ├── tools/                # LangChain tools for DB access (scheduling, emergency, etc.)
+│   ├── workflows/            # Background schedulers (medication reminders, feedback)
+│   ├── tests/                # pytest test suite
+│   ├── app.py                # FastAPI application entry point
+│   └── config.py             # Pydantic settings (reads from .env)
+├── frontend/                 # Vue 3 SPA (Chat UI & views)
+├── docs/medical/             # Medical documents used for RAG ingestion
+├── infrastructure/           # Dev-only Docker Compose (postgres + qdrant + langfuse)
+├── nginx/                    # Nginx config + Dockerfile (serves frontend, proxies API)
+├── scripts/                  # One-shot setup script (seeds DB + ingests RAG)
+├── deployment/               # Production deploy shell script
+├── docker-compose.yml        # Full production stack (all services)
+├── Dockerfile                # Backend Docker image
+├── Makefile                  # Developer shortcuts
+├── requirements.txt          # Python dependencies
+└── .env.example              # Environment variable template
+```
 
 ## Contributing
 
@@ -79,6 +142,8 @@ the Python project conventions and include tests for new features.
 
 This project is provided under the MIT License. See LICENSE for details.
  
+---
+
 ## Agents Architecture
 
 ```text
@@ -89,8 +154,7 @@ This project is provided under the MIT License. See LICENSE for details.
              ┌────────────────────────┼────────────────────────┐
              │                        │                        │
              ▼                        ▼                        ▼
-      Text Chat                Voice Input              Phone Call
-                                                     (Call Agent)
+      Text Chat                Voice Input              Medical Image
 
                                       │
                                       ▼
@@ -256,107 +320,6 @@ execute follow-up steps (e.g., booking, dispatching).
 - Keep secrets per-service (LLM keys, DB URLs) scoped via environment
   variables and use a secrets manager in production.
 
-If you'd like, I can also:
-
-- generate OpenAPI schemas for each agent's input/output,
-- add a small diagram file under `docs/` or convert this section to a
-  separate `docs/agents.md` file.
-
-TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-
-# Optional (enables Langfuse monitoring)
-LANGFUSE_PUBLIC_KEY=your_langfuse_public_key
-LANGFUSE_SECRET_KEY=your_langfuse_secret_key
-```
-TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-
-# Optional (enables Langfuse monitoring)
-LANGFUSE_PUBLIC_KEY=your_langfuse_public_key
-LANGFUSE_SECRET_KEY=your_langfuse_secret_key
-```
-
-> The database URLs and Qdrant URL are pre-filled for local Docker — no changes needed for local development.
-
-### Step 3 — Start infrastructure services
-
-```bash
-cd infrastructure
-docker compose up -d
-cd ..
-```
-
-Wait ~10 seconds for PostgreSQL to initialize, then verify:
-
-```bash
-docker compose -f infrastructure/docker-compose.yml ps
-```
-
-You should see all services as `healthy` or `running`.
-
-### Step 4 — Install Python dependencies
-
-```bash
-# Create and activate a virtual environment (recommended)
-python -m venv .venv
-
-# Windows
-.venv\Scripts\activate
-
-# macOS / Linux
-source .venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Step 5 — Run one-shot setup (seed DB + ingest RAG)
-
-```bash
-python scripts/setup.py
-```
-
-This will:
-- ✅ Create all database tables across all 4 logical databases
-- ✅ Seed 5 patients, 5 doctors, 5 clinics, 210 appointment slots
-- ✅ Add prescriptions, feedback records, loyalty transactions, and HITL cases
-- ✅ Ingest 7 medical knowledge documents into the Qdrant vector database
-
-Expected output:
-```
-============================================================
-Agentic Medical Assistant — Project Setup
-============================================================
-
-[1/2] Seeding databases...
-  Patient DB seeded: 5 patients, histories, diagnoses, loyalty, offers, HITL cases, users.
-  Appointment DB seeded: 5 doctors, 5 clinics, 210 slots, 8 appointments.
-  Prescription DB seeded: 4 prescriptions, 8 medications, 10 schedules.
-  Analytics DB seeded: 3 feedback records, 8 agent logs.
-
-[2/2] Ingesting medical knowledge into Qdrant RAG...
-Ingested N chunks from cardiology.txt
-...
-
-Setup complete!
-```
-
-### Step 6 — Start the API server
-
-```bash
-uvicorn backend.app:app --reload --host 0.0.0.0 --port 8000
-```
-
-### Step 7 — Explore the API
-
-| URL | Description |
-|-----|-------------|
-| `http://localhost:8000/docs` | Interactive Swagger UI |
-| `http://localhost:8000/redoc` | ReDoc documentation |
-| `http://localhost:8000/health` | Health check |
-| `http://localhost:3000` | Langfuse monitoring dashboard |
-
----
-
 ## ⚙️ Environment Variables
 
 | Variable | Required | Default | Description |
@@ -379,6 +342,8 @@ uvicorn backend.app:app --reload --host 0.0.0.0 --port 8000
 | `LANGFUSE_PUBLIC_KEY` | — | — | Langfuse public key |
 | `LANGFUSE_SECRET_KEY` | — | — | Langfuse secret key |
 | `LANGFUSE_HOST` | — | `http://localhost:3000` | Langfuse instance URL |
+| `WHISPER_API_URL` | — | `https://api.groq.com/openai/v1/audio/transcriptions` | Groq Whisper STT endpoint |
+| `APP_ENV` | — | `development` | Application environment |
 | `LOG_LEVEL` | — | `INFO` | Logging level |
 
 ---
@@ -692,11 +657,12 @@ push to main
 
 | Secret | Description |
 |---|---|
-| `DEPLOY_HOST` | Production server IP or hostname |
-| `DEPLOY_USER` | SSH username (e.g. `ubuntu`) |
-| `DEPLOY_KEY` | SSH private key (PEM) |
-| `DEPLOY_PATH` | Absolute path on server (e.g. `/opt/mediassist`) |
-| `GHCR_TOKEN` | GitHub token with `write:packages` scope |
+| `SERVER_HOST` | Production server IP or hostname |
+| `SERVER_USER` | SSH username (e.g. `ubuntu`) |
+| `SERVER_SSH_KEY` | SSH private key (PEM) |
+
+> **Note:** The workflow uses the automatically provided `GITHUB_TOKEN` to push
+> Docker images to GitHub Container Registry — no additional registry secret is needed.
 
 ### Server-side deploy script
 
@@ -769,4 +735,3 @@ This project is developed as an academic/graduation project. All medical informa
 Built with ❤️ using **LangGraph**, **FastAPI**, and **Groq**
 
 </div>
-]]>

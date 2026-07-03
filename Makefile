@@ -43,11 +43,11 @@ help:
 dev:
 	$(COMPOSE) -f infrastructure/docker-compose.yml up -d
 	@echo "→ Infra running. Starting backend with hot-reload..."
-	cd backend && uvicorn app:app --reload --host 0.0.0.0 --port 8000
+	PYTHONPATH=. uvicorn backend.app:app --reload --host 0.0.0.0 --port 8000
 
 infra:
 	$(COMPOSE) -f infrastructure/docker-compose.yml up -d
-	@echo "→ postgres:5432  qdrant:6333  langfuse:3001  all healthy"
+	@echo "→ postgres:5432  qdrant:6333  langfuse:3000  all healthy"
 
 stop:
 	$(COMPOSE) -f infrastructure/docker-compose.yml down
