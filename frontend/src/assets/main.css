@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  * { @apply border-border; }
+  * { @apply border-slate-200; }
   body { @apply bg-slate-50 text-slate-900 antialiased; }
 }
 
