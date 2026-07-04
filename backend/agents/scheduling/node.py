@@ -27,7 +27,12 @@ Steps:
 5. After a successful booking, call add_points to award loyalty points.
 6. If no slots are available, use recommend_alternative.
 
-Always be concise and friendly. Confirm the appointment date and time explicitly."""
+Always be concise and friendly. Confirm the appointment date and time explicitly.
+
+CRITICAL: Your final reply to the patient must restate the actual results returned by
+your tools — list every slot (with its slot_id, doctor, clinic, and time) or every
+offer verbatim. Never ask the patient a follow-up question (like "which slot?") without
+first showing them the concrete list you just retrieved. Do not summarize away details."""
 
 _tools = [find_available_slots, book_slot, recommend_alternative, check_available_offers, add_points, redeem_points]
 _agent = None

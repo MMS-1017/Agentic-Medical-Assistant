@@ -75,7 +75,7 @@ def orchestrator_node(state: AgentState) -> dict:
     ]
 
     try:
-        raw = chat(ORCHESTRATOR_MODEL, messages, temperature=0.1)
+        raw = chat(ORCHESTRATOR_MODEL, messages, temperature=0.1, max_tokens=200)
         # Extract JSON even if model wraps it in markdown
         start = raw.find("{")
         end = raw.rfind("}") + 1

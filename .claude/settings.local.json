@@ -36,7 +36,8 @@
       "Bash(.venv/Scripts/python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('\\\\n'.join\\(sorted\\(m['id'] for m in d['data']\\)\\)\\)\")",
       "Bash(.venv/Scripts/python -c ' *)",
       "Bash(.venv/Scripts/python -c \"import pkgutil,langfuse; print\\([m.name for m in pkgutil.iter_modules\\(langfuse.__path__\\)]\\)\")",
-      "Bash(.venv/Scripts/python -c \"from langfuse.langchain import CallbackHandler; print\\(CallbackHandler\\)\")"
+      "Bash(.venv/Scripts/python -c \"from langfuse.langchain import CallbackHandler; print\\(CallbackHandler\\)\")",
+      "Bash(xxd)"
     ]
   }
 }

@@ -29,7 +29,7 @@ def find_available_slots(department: str, limit: int = 5) -> str:
         lines = []
         for slot, doctor, clinic in rows:
             lines.append(
-                f"[{slot.slot_id}] Dr. {doctor.full_name} — {clinic.clinic_name} "
+                f"[{slot.slot_id}] {doctor.full_name} — {clinic.clinic_name} "
                 f"on {slot.start_time.strftime('%Y-%m-%d %H:%M')}"
             )
         return "Available slots:\n" + "\n".join(lines)
