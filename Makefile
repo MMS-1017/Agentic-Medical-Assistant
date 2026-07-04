@@ -6,7 +6,19 @@
 COMPOSE        = docker compose
 COMPOSE_FILE   = docker-compose.yml
 BACKEND_SVC    = backend
-PYTHON         = python
+
+# Setup Python and Uvicorn path depending on OS to use local .venv
+VENV           = .venv
+ifeq ($(OS),Windows_NT)
+    VENV_BIN   = $(VENV)/Scripts
+else
+    VENV_BIN   = $(VENV)/bin
+endif
+
+PYTHON         = $(VENV_BIN)/python
+UVICORN        = $(VENV_BIN)/uvicorn
+PYTEST         = $(VENV_BIN)/pytest
+RUFF           = $(VENV_BIN)/ruff
 
 help:
 	@echo ""
@@ -43,7 +55,7 @@ help:
 dev:
 	$(COMPOSE) -f infrastructure/docker-compose.yml up -d
 	@echo "→ Infra running. Starting backend with hot-reload..."
-	PYTHONPATH=. uvicorn backend.app:app --reload --host 0.0.0.0 --port 8000
+	PYTHONPATH=. $(UVICORN) backend.app:app --reload --reload-dir backend --host 0.0.0.0 --port 8000
 
 infra:
 	$(COMPOSE) -f infrastructure/docker-compose.yml up -d
@@ -78,13 +90,13 @@ build-fe:
 # ── Testing ──────────────────────────────────────────────────────────────────
 
 test:
-	PYTHONPATH=. pytest backend/tests/ -q
+	PYTHONPATH=. $(PYTEST) backend/tests/ -q
 
 test-v:
-	PYTHONPATH=. pytest backend/tests/ -v
+	PYTHONPATH=. $(PYTEST) backend/tests/ -v
 
 lint:
-	ruff check backend/
+	$(RUFF) check backend/
 
 # ── Production ───────────────────────────────────────────────────────────────
 
