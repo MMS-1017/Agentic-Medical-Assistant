@@ -74,7 +74,10 @@ def test_login(client):
 
 def _get_test_token():
     from backend.services.auth import create_access_token
-    return create_access_token({"sub": "u-001", "patient_id": "p-001"})
+    return create_access_token({
+        "sub": "11111111-1111-1111-1111-111111111111",
+        "patient_id": "22222222-2222-2222-2222-222222222222",
+    })
 
 
 # ── Chat ──────────────────────────────────────────────────────────────────────
