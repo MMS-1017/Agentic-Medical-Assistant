@@ -8,7 +8,26 @@
       "PowerShell(New-Item -ItemType Directory -Force -Path \"scripts\")",
       "PowerShell(New-Item -ItemType File -Force -Path \"scripts\\\\__init__.py\")",
       "PowerShell(New-Item -ItemType Directory -Force -Path \"nginx\")",
-      "PowerShell(New-Item -ItemType Directory -Force -Path \".github\\\\workflows\")"
+      "PowerShell(New-Item -ItemType Directory -Force -Path \".github\\\\workflows\")",
+      "Bash(.venv/Scripts/python.exe -c \"import backend.app\")",
+      "Bash(.venv/Scripts/python.exe --version)",
+      "Bash(timeout 15 .venv/Scripts/python.exe -m uvicorn backend.app:app --host 127.0.0.1 --port 8010)",
+      "Bash(timeout 3 sleep 10)",
+      "Bash(echo \"exit:$?\")",
+      "Bash(echo \"EXIT:$?\")",
+      "Read(//tmp/**)",
+      "Bash(PYTHONUNBUFFERED=1 timeout 15 .venv/Scripts/python.exe -u -m uvicorn backend.app:app --host 127.0.0.1 --port 8010)",
+      "Bash(.venv/Scripts/python.exe -m uvicorn backend.app:app --host 127.0.0.1 --port 8010)",
+      "Bash(echo \"PID:$!\")",
+      "Bash(curl -s -m 3 http://127.0.0.1:8010/health)",
+      "Bash(kill %1)",
+      "Bash(.venv/Scripts/python.exe -m pytest backend/tests -q)",
+      "Bash(git rm *)",
+      "Bash(tasklist)",
+      "Bash(wmic process *)",
+      "Bash(git reset *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
