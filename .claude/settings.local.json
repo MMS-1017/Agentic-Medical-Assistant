@@ -27,7 +27,16 @@
       "Bash(wmic process *)",
       "Bash(git reset *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(npx vite *)",
+      "Bash(docker --version)",
+      "Bash(docker info *)",
+      "Bash(docker compose *)",
+      "Bash(.venv/Scripts/python -c \"import langfuse; print\\(langfuse.__version__\\)\")",
+      "Bash(.venv/Scripts/python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('\\\\n'.join\\(sorted\\(m['id'] for m in d['data']\\)\\)\\)\")",
+      "Bash(.venv/Scripts/python -c ' *)",
+      "Bash(.venv/Scripts/python -c \"import pkgutil,langfuse; print\\([m.name for m in pkgutil.iter_modules\\(langfuse.__path__\\)]\\)\")",
+      "Bash(.venv/Scripts/python -c \"from langfuse.langchain import CallbackHandler; print\\(CallbackHandler\\)\")"
     ]
   }
 }

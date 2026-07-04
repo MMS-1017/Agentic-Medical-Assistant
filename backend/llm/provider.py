@@ -10,15 +10,14 @@ from backend.config import settings
 # Models available on Groq (subset we use)
 _GROQ_MODELS = {
     "llama-3.3-70b-versatile",
-    "llama-3.2-11b-vision-preview",
-    "llama-3.2-3b-preview",
-    "llama-3.2-1b-preview",
+    "llama-3.1-8b-instant",
+    "meta-llama/llama-4-scout-17b-16e-instruct",
     "whisper-large-v3",
 }
 
 # OpenRouter model IDs for models not on Groq
 _OPENROUTER_ALIAS = {
-    "google/gemini-flash-2.5": "google/gemini-flash-2.5",
+    "google/gemini-2.5-flash": "google/gemini-2.5-flash",
 }
 
 _groq_client = OpenAI(

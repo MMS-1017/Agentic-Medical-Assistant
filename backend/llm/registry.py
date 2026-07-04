@@ -1,8 +1,8 @@
 """Model ID constants used across agents."""
 
-ORCHESTRATOR_MODEL = "google/gemini-flash-2.5"
+ORCHESTRATOR_MODEL = "google/gemini-2.5-flash"
 DIAGNOSIS_MODEL = "llama-3.3-70b-versatile"
-DIAGNOSIS_VISION_MODEL = "llama-3.2-11b-vision-preview"
-SCHEDULING_MODEL = "llama-3.2-3b-preview"
-EMERGENCY_MODEL = "llama-3.2-3b-preview"
-FEEDBACK_MODEL = "llama-3.2-1b-preview"
+DIAGNOSIS_VISION_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
+SCHEDULING_MODEL = "llama-3.1-8b-instant"
+EMERGENCY_MODEL = "llama-3.1-8b-instant"
+FEEDBACK_MODEL = "llama-3.1-8b-instant"
