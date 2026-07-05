@@ -7,6 +7,8 @@ from collections import defaultdict
 from typing import Any
 
 _sessions: dict[str, list[dict[str, Any]]] = defaultdict(list)
+_last_slots: dict[str, list[str]] = {}
+_last_offers: dict[str, list[str]] = {}
 MAX_HISTORY = 20
 
 
@@ -20,3 +22,25 @@ def append_message(patient_id: str, role: str, content: str) -> None:
 
 def clear_session(patient_id: str) -> None:
     _sessions.pop(patient_id, None)
+    _last_slots.pop(patient_id, None)
+    _last_offers.pop(patient_id, None)
+
+
+def set_last_slots(patient_id: str, slot_ids: list[str]) -> None:
+    """Remember the slot_ids most recently shown to this patient, in display order,
+    so a follow-up like "book the first one" can be resolved without the raw slot_id."""
+    _last_slots[patient_id] = slot_ids
+
+
+def get_last_slots(patient_id: str) -> list[str]:
+    return _last_slots.get(patient_id, [])
+
+
+def set_last_offers(patient_id: str, offer_ids: list[str]) -> None:
+    """Remember the offer_ids most recently shown to this patient, in display order,
+    so a follow-up like "redeem the first one" can be resolved without the raw offer_id."""
+    _last_offers[patient_id] = offer_ids
+
+
+def get_last_offers(patient_id: str) -> list[str]:
+    return _last_offers.get(patient_id, [])
