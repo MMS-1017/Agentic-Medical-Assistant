@@ -258,6 +258,9 @@ async function send() {
         emergency_dispatched: d.emergency_dispatched,
       },
     })
+    // Chat actions (e.g. booking an appointment) can change loyalty points
+    // server-side; resync the cached profile so the header badge stays accurate.
+    auth.fetchProfile()
   } catch (err) {
     messages.value.push({
       role: 'assistant',
