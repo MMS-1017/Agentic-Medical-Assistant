@@ -117,7 +117,14 @@ def scheduling_node(state: AgentState) -> dict:
         response = _build_response(messages, messages[-1].content, awarded_points)
     except Exception as exc:
         logger.error("Scheduling agent error: %s", exc)
-        response = "I'm sorry, I encountered an issue with scheduling. Please try again."
+        if not allow_booking and "book_slot" in str(exc):
+            # The model tried to book without the patient having named a specific
+            # slot_id, so book_slot wasn't bound and Groq rejected the call —
+            # no appointment was created. Ask for the slot_id explicitly instead
+            # of showing a generic error.
+            response = "Please reply with the exact slot ID (shown in brackets, e.g. [1234abcd-...]) of the slot you'd like to book."
+        else:
+            response = "I'm sorry, I encountered an issue with scheduling. Please try again."
 
     session_svc.append_message(patient_id, "assistant", response)
     return {"response": response}
