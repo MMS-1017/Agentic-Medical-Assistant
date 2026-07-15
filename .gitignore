@@ -3,3 +3,9 @@
 __pycache__/
 *.pyc
 node_modules/
+
+# Claude AI local settings (may contain hardcoded secrets)
+.claude/
+
+# Frontend build artifacts — never commit, built by CI/CD
+frontend/dist/
